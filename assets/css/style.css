@@ -5,22 +5,32 @@
     background-color: #4aaaa5;
     color: white;
     border-width: t1px solid #cccccc;
+    padding: 20px;
   }
 
-  h1 {
+  h2 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 20pt;
     background-color: white;
     color: #4aaaa5;
     padding: 10px;
     border-bottom: 1px solid #cccccc;
-  }
+  } 
+
+  h3 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 16pt;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 20px
+  } 
 
   .aheader {
-    display: inline-block;
-    width: 100%;
     border-bottom: 1px solid #cccccc;
     background-color: #ffffff;
+    width: 930px;
+    margin: 0px auto;
+    padding: 20px;
   }
   
   .afooter {
@@ -32,12 +42,12 @@
   }
   
   .atopnav {
-    float: right;
     color: #777777;
     color: #777777;
     text-align: center;
     padding: 14px 16px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    float: right;
   }
 
   body {
@@ -77,7 +87,6 @@
     margin: 4px 2px;
     cursor: pointer;
     padding: 10px;
-    
   }
 
   input[type=submit]:hover {
@@ -88,6 +97,24 @@
     background-color: pink;
   }
 
-  .porfolio1{
-    background-image: url(../images/circle-blues.png);
+  .templatecard {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin: 20px;
+    padding: 10px;sec
+  }
+  
+  .text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .alltemplates {
+    background-color: #ffffff;
   }
